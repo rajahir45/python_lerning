@@ -3,11 +3,10 @@
 
 def calc_sum(a,b):
   c = a + b
-  print(c)
-  return sum
+  return c
 
 
-calc_sum(10,12)
+print(calc_sum(10,12))
 
 
 ### 2. Write a function called `greet()` that prints the message:
@@ -23,7 +22,6 @@ message()
 
 def squre(a,b):
   squre = a**b
-  print(squre)
   return squre
 
 print(squre(10,4))
